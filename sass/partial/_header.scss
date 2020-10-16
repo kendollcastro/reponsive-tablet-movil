@@ -1,0 +1,47 @@
+/*Header*/
+
+
+#logo {
+    float: $floatL;
+    width: 183px; }
+  
+#nav {
+    float: $floatR;
+    width: 69%;
+    position: $positionR; 
+}
+  
+#nav-link-email {
+    font-size: 13px;
+    color: $colorGrisC;
+    text-decoration: none;
+    position: $positionA;
+    top: 0;
+    right: 0; 
+}
+  
+#nav-list {
+    list-style: none;
+    margin: 45px 0 0 0;
+    padding: 0;
+} 
+#nav-list li {
+    float: $floatL; 
+}
+#nav-list li + li {
+    margin-left: 64px; 
+}
+  
+#nav-list a {
+    font-size: 12px;
+    font-weight: bold;
+    color: $colorNaranja;
+    text-decoration: none;
+    text-transform: $textTransUpper; 
+}
+
+.nav-link-menu{
+    display: none;
+}
+
+

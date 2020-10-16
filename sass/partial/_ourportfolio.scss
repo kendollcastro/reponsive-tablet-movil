@@ -1,0 +1,15 @@
+.box-img {
+    max-width: 100%;
+    width: 22%;
+    float: $floatL;
+     
+}
+
+.box-img a, .box-img img {
+    display: block; 
+}
+
+.box-img + .box-img {
+    margin-left: 6.25%; 
+    width: 20%;
+}

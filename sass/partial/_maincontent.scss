@@ -1,0 +1,29 @@
+#box-benefits-list {
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+}
+
+#box-benefits-list li {
+    padding-left: 30px;
+    background-image: url("../img/check.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.box {
+    width: 29%;
+    float: $floatL; 
+}
+
+.box + .box {
+    margin-left: 6%; 
+}
+
+.box-link {
+    color: $colorNegro;
+    font-style: italic;
+    font-size: 12px;
+    text-decoration: none; 
+}
+
