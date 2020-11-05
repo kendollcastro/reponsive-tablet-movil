@@ -12,7 +12,7 @@
 }
   
 #nav-link-email {
-    font-size: 13px;
+    font-size: 1rem;
     color: $colorGrisC;
     text-decoration: none;
     position: $positionA;
@@ -29,11 +29,11 @@
     float: $floatL; 
 }
 #nav-list li + li {
-    margin-left: 64px; 
+    margin-left: 43px; 
 }
   
 #nav-list a {
-    font-size: 12px;
+    font-size: 1rem;
     font-weight: bold;
     color: $colorNaranja;
     text-decoration: none;
